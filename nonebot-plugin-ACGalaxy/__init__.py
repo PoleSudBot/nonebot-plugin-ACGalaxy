@@ -2,7 +2,10 @@ from nonebot import require
 from nonebot.plugin import PluginMetadata, inherit_supported_adapters
 
 require("nonebot_plugin_alconna")
-from . import acg
+
+def get_acg():
+    from . import acg
+    return acg
 
 
 __plugin_meta__ = PluginMetadata(
