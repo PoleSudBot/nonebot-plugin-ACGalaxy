@@ -11,7 +11,7 @@ dependencies = [
 ]
 requires-python = ">=3.8,<4.0"
 license = { file = "LICENSE" }
-readme = "README.md"
+readme = "README.MD"
 
 [project.urls]
 "Homepage" = "https://github.com/zouXH-god/nonebot-plugin-ACGalaxy"
